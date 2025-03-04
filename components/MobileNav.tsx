@@ -10,6 +10,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
+
 import { sidebarLinks } from "@/constants";
 import { cn } from "@/lib/utils";
 
@@ -29,6 +30,7 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent side="left" className="border-none bg-dark-1">
+          <SheetContent side="right"></SheetContent>
           <Link href="/" className="flex items-center gap-1">
             <Image
               src="/icons/logo.svg"
